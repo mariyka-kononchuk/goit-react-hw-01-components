@@ -1,4 +1,4 @@
-.Profile {
+.profile {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -9,51 +9,51 @@
   background-color: beige;
 }
 
-.Profile__avatar {
+.avatar {
   margin-left: auto;
   margin-right: auto;
   width: 100px;
 }
-.Profile__description {
+.description {
   margin-bottom: 10px;
 }
-.Profile__name {
+.name {
   font-size: 20px;
   font-weight: 600;
 }
-.Profile__name,
-.Profile__tag,
-.Profile__location {
+.name,
+.tag,
+.location {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.Profile__tag {
+.tag {
   color: grey;
 }
 
-.Profile__location {
+.location {
   color: grey;
 }
 
-.Profile__stats {
+.stats {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
 }
-.Profile__stats--item {
+.item {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Profile__stats--label {
+.label {
   font-weight: 600;
   color: rgb(87, 1, 27);
 }
 
-.Profile__stats--quantity {
+.quantity {
   font-size: 14px;
   font-weight: 600;
   color: rgb(160, 160, 5);
