@@ -2,15 +2,15 @@ import PropTypes from 'prop-types';
 
 export default function FriendList({ friends }) {
   return (
-    <section class="statistics">
+    <section className="statistics">
       {/* checking existence of Title */}
-      {/* {title && <h2 class="title">{title}</h2>} */}
-      <ul class="friend-list">
+      {/* {title && <h2 className="title">{title}</h2>} */}
+      <ul className="friend-list">
         {friends.map(({ id, avatar, name, isOnline }) => (
-          <li class="item" key={id}>
-            <span class="status"></span>
-            <img class="avatar" src={avatar} alt="" width="48" />
-            <p class="name">{name}</p>
+          <li className="item" key={id}>
+            <span className="status"></span>
+            <img className="avatar" src={avatar} alt="" width="48" />
+            <p className="name">{name}</p>
           </li>
         ))}
       </ul>
